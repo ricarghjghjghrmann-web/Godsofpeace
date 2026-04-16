@@ -1,0 +1,17 @@
+//
+<div id="news1" class="news-popup">
+  <div class="news-content">
+    <a href="#" class="close">&times;</a>
+    <h2>Neues Update angekündigt</h2>
+    <p>Hier steht dein kompletter News-Text...</p>
+  </div>
+</div>
+
+<div id="news2" class="news-popup">
+  <div class="news-content">
+    <a href="#" class="close">&times;</a>
+    <h2>Gameplay Trailer released</h2>
+    <p>Hier steht der komplette Inhalt...</p>
+  </div>
+</div>
+//
