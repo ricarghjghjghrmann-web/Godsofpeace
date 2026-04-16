@@ -1,5 +1,4 @@
 css
-/* ================= RESET ================= */
 *{
   margin:0;
   padding:0;
@@ -17,16 +16,25 @@ body{
   overflow-x:hidden;
 }
 
-/* ================= BACKGROUND VIDEO ================= */
-#bg-video{
+/* ================= YOUTUBE BACKGROUND VIDEO ================= */
+.video-bg{
   position: fixed;
   top:0;
   left:0;
   width:100%;
   height:100%;
-  object-fit:cover;
   z-index:-2;
+  overflow:hidden;
   pointer-events:none;
+}
+
+.video-bg iframe{
+  position:absolute;
+  top:50%;
+  left:50%;
+  width:120vw;
+  height:120vh;
+  transform:translate(-50%, -50%);
 }
 
 /* Overlay */
@@ -42,6 +50,7 @@ body::before{
 h1,h2,h3,.logo,.main-menu a,.social-bar a{
   font-family:'Bebas Neue', sans-serif;
 }
+
 
 nav{
   position:fixed;
